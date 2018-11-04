@@ -47,10 +47,9 @@ class Main extends React.Component {
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <h2 className="major">Les locaux</h2>
           <h3>Le duplex</h3>
-          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLEDUPLEX.TOULOUSE%2Fvideos%2F1944802345604251%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLEDUPLEX.TOULOUSE%2Fvideos%2F10155742005632970%2F&show_text=0&width=560" width="100%" height="500" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           {close}
         </article>
 

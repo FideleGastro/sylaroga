@@ -4,8 +4,8 @@ import logo from '../images/logo.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
-            <img src={ambre} alt="" />
+        <div className="logo" style={{backgroundImage: `url(${logo})`, backgroundSize: 'contain'}}>
+            
         </div>
         <div className="content">
             <div className="inner">
